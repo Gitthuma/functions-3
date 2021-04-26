@@ -10,6 +10,12 @@ function random(min, max) {
     return num = Math.floor(Math.random() * (max - min));
 }
 
+/*Update the chooseName() function so that it makes use of the random number function, takes the array to choose from as a parameter (making it more flexible), and returns the result.*/
+
+function chooseName(array) {
+    return randomName = array[random(0, array.length)];
+}
+
 // Don't edit the code below here!
 
 const section = document.querySelector('section');
