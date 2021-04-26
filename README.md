@@ -9,3 +9,5 @@ In this task, you return to the problem posed in Task 1, with the aim of improvi
 3. Print the returned result into the paragraph (para)'s textContent.
 
 Ref: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Test_your_skills:_Functions
+
+Live web: https://gitthuma.github.io/functions-3/
