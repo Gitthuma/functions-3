@@ -16,6 +16,10 @@ function chooseName(array) {
     return randomName = array[random(0, array.length)];
 }
 
+/*Print the returned result into the paragraph (para)'s textContent.*/
+
+para.textContent = chooseName(names);
+
 // Don't edit the code below here!
 
 const section = document.querySelector('section');
